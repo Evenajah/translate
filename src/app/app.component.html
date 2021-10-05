@@ -1,0 +1,11 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+
+<ng-container *ngFor="let item of translateObject; let i = index">
+  <div *ngFor="let items of item | keyvalue">
+    {{ items.key }}
+    <br />
+    {{ items.value }}
+    <br />
+  </div>
+</ng-container>
