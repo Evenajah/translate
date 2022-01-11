@@ -9,180 +9,222 @@ export class AppComponent {
   objectKeys = Object.keys;
   translateObject = [
     {
-      'h-notification': 'Notification',
-      't-seeall': 'See all',
-      't-noti-not-found': 'Notification not found!',
-      't-make-difference-by-creating-widget':
-        'Make the difference by creating your Widget',
+      'al-the-number-dashboard-reach-maximum-limit':
+        'The number of favorite dashboard reach maximum limit.',
+      'al-unable-to-favorite-dashboard-limit-exceed':
+        'Unable to mark favorite dashboard. Because the limit is exceeded.',
 
-      'al-delete-online-config': 'Delete Online Config',
-      'al-once-you-delete-cant-do-it':
-        "Once you delete config, you can't undo it !",
-      'al-once-you-delete-group-do-it':
-        "Once you delete group, you can't undo it !",
-      'al-once-you-delete-thing-cant-do-it':
-        "Once you delete thing, you can't undo it !",
-      'al-once-you-leave-thing-cant-do-it':
-        "Once you Leave thing, you can't undo it !",
-      'al-once-you-delete-destination-cant-do-it':
-        "Once you delete destination, you can't undo it !",
-      afterDelete: 'After delete',
-      youCantUndoPleaseConfirm:
-        'you can not undo your action. Please confirm to delete.',
-      'al-confirm-transfer-thing': 'Confirm transfer thing',
-      'al-leave-thing': 'Leave Thing',
-      'al-you-will-be-add-to-future':
-        'You will be added to project in the future.',
-      confirmTransfer: 'Confirm transfer',
-      to: 'to',
-      'al-please-confirm-transfer-thing-subtitle':
-        'Please confirm to transfer your thing to other. After your confrimed, you can not access this thing.',
-      'al-you-will-be-register-in-future':
-        'You will be able to re-register this thing in the future. !',
-      'al-from-your-account': 'from your account ?.',
-      'al-from-project': 'from project ?',
-      'al-from-dashboard': 'from Dashboard',
-      'al-once-you-delete-sensor-cant-do-it':
-        "Once you delete Sensor, you can't undo it !",
-      'al-once-you-delete-share-link-cant-do-it':
-        "Once you delete Share Link, you can't undo it !",
-      'al-delete-compare-data': 'Delete Pin Compare Data',
-      'al-message-cache-process': 'Message Cache On Process',
-      'al-once-you': 'Once you',
-      'al-you-can-only-delete-it-when-job-done':
-        'You can only delete it when the job is done.',
-      'al-project-you-can-do-this': "project, you can't undo it !",
-      'al-the-number-project-reach-maximum-limit':
-        'The number of project reach maximum limit.',
-      'al-the-number-fav-project-reach-maximum-limit':
-        'The number of favorite project reach maximum limit.',
-      'al-unable-to-create-project-limit-exceed':
-        'Unable to create project. Because the limit is exceeded.',
-      'al-unable-to-mark-fav-project-limit-exceed':
-        'Unable to mark favorite project. Because the limit is exceeded.',
-      'al-all-widget-in-dashboard-will-be-leave':
-        'All widget in this dashboard will also be Leave.',
-      'al-all-widget-in-dashboard-will-be-delete':
-        'All widget in this dashboard will also be deleted.',
-      'al-confirm-revoke-email': 'Confirm to revoke email',
-      'al-confirm-to-revoke': 'Confirm to revoke',
-      'al-after-revoke': 'After revoke',
-      'al-would-not-permission-to-use-project':
-        'would not permission to use Project',
-      'al-would-not-permission-to-use-dashboard':
-        'would not permission to use Dashboard',
-      'al-please-confirm-to-revoke': 'Please confirm to revoke.',
-      'al-delete-link': 'Delete Link',
-      'al-delete-all-share-link': 'Delete All Share Link',
-      'al-after-delete-you-cant-undo-please-confirm':
-        'After delete you can not undo your action. Please confirm to delete.',
-      'al-from-Project': 'from Project',
-      'al-before-like-this-please-unlike-some-project':
-        'before you like this project Please unlike some projects that you have previously liked.',
-      'al-your-like-are-limit-to-8-project':
-        'Your likes are limited to 8 projects.',
-      'b-tutorial': 'Tutorial',
-      'al-my-workspace': 'My Workspace',
-      'al-my-workspace-is?': 'My Workspace คืออะไร?',
-      'al-my-workspace-description':
-        '“My Workspace” พื้นที่สำหรับเริ่มต้น สร้างสรรค์งานของคุณมีไว้เพื่อให้คุณได้เข้าถึงโปรเจคต่างๆ รวมถึง Thing ได้อย่างง่ายดาย',
-      'al-how-to-create-mix-dashboard': 'How to create a mix dashboard',
-      'al-how-to-fav-dashboard': 'How to favorite dashboard',
-      'al-include-with': 'ประกอบด้วย',
-      'al-mix-dashboard': 'Mix Dashboard',
-      'al-fav-dashboard-description':
-        'เป็นพื้นที่สำหรับแสดงผลข้อมูลภาพรวมของโปรเจค ที่ใช้งานบ่อยๆและต้องการ Favorite เพื่อง่ายต่อการเข้าถึง',
-      'al-mix-dashboard-description':
-        'ฟีเจอร์สุดพิเศษที่คุณสามารถกำหนดได้เอง สำหรับการแสดงผลข้อมูลอุปกรณ์จากหลากหลายโปรเจคมาไว้ใน Dashboard เดียวกัน',
-      'al-fav-project-description':
-        'เป็นทางลัดเข้าสู่โปรเจค ที่เราได้ทำการ Favorite ไว้ สามารถแสดงผลสูงสุดได้ถึง 8 โปรเจค',
-      'al-thing-description':
-        'แสดง Thing ที่ถูกลงทะเบียนเข้ามาของคุณ แสดงผลสูงสุด 4 Thing และสามารถลงทะเบียน Thing ใหม่ได้ที่นี่',
-      'al-click-register-tool': 'คลิกเพื่อลงทะเบียนอุปกรณ์',
-      'al-see-all-things': 'See all things',
+      't-tutorial-thing':
+        'อุปกรณ์ IoT ของคุณที่ซื้อหรือมีการลงทะเบียน เพื่อใช้งาน Magellan โดย 1 Thing สามารถมี Sensor ได้หลายประเภท',
+      't-tutorial-thing-2':
+        'เงื่อนไขการใช้งานอุปกรณ์ขึ้นอยู่กับ Package ที่ได้มีการสมัครใช้บริการ',
+      't-tutorial-thing-3':
+        'ศึกษารายละเอียดและเงื่อนไขเพิ่มเติมเกี่ยวกับ Package ได้ที่ นี่ คลิกเพื่อดูรายละเอียด Package',
+      'h-text-action-setting': 'Text Action Setting',
+      'al-reload-message': 'Reload Message',
+      'bc-create-online-config': 'Create Online Config',
+      't-create-link-detail': 'Create link Detail',
+      't-share-link-detail': 'Share LINK Detail',
+      't-link-detail': 'Link Detail',
+      't-update-link': 'Update Link',
+      't-all-share-dashboard': 'All Shared Dashboard',
+      't-project-detail': 'Project Detail',
+      't-please-connect-internet': 'Please connect internet',
 
-      'h-my-project': 'My Project',
-      'al-my-project-is?': 'My Project คืออะไร?',
-      'al-my-project-description':
-        '“My Project” การแบ่งสัดส่วนเพื่อสร้างสรรค์ผลงาน ด้วยการสร้างโปรเจคและแชร์โปรเจคเพื่อให้ผู้อื่นเข้ามาพัฒนาร่วมกันได้',
-      'al-how-to-create-dashboard': 'How to create dashboard',
-      'al-how-to-create-widget': 'How to create widget',
-      'al-how-to-share-dashboard': 'How to Share Dashboard',
-      'al-how-to-share-project': 'How to Share Project',
-      'al-dashboard-description':
-        'Dashboard เป็นพื้นที่แสดงภาพรวมของข้อมูลและ widgets ในรูปแบบต่างๆ เพื่อให้เข้าใจได้ง่าย โดยคุณสามารถแชร์ Dashboard ให้ผู้อื่นเข้ามาดูข้อมูลหรือควบคุมอุปกรณ์ร่วมกับคุณ',
-      'al-group-thing-description':
-        'การจัดกลุ่มของ Thing ที่มีอยู่เพื่อง่ายต่อการจัดการ อุปกรณ์ของคุณ โดย 1 Thing สามารถอยู่ได้หลายกลุ่ม',
+      'h-start-using-magellan': 'Start using MAGELLAN',
+      'h-thing-resource-management': 'Things and Resources Management',
+      'h-things-data-management': 'Things Data Management',
+      'h-acuiring-api-access': 'Acquiring APIs access',
+      'h-magellan-visualization': 'Magellan Visualization',
+      't-create-dashboard-option-1':
+        'Go to menu bar, Select menu "ALL PROJECT"',
+      't-create-dashboard-option-2':
+        'Select menu "MY PROJECTS" and select Project',
+      't-create-dashboard-option-3': 'Click "CREATE DASHBOARD"',
+      't-create-dashboard-option-4': 'Input Dashboard Name, click "SAVE"',
+      't-create-widget-option-3':
+        'Select menu "DASHBOARD" and select Dashboard',
+      't-create-widget-option-4': 'Click "ADD WIDGET"',
+      't-create-widget-option-5': 'Click "CREATE SENSOR WIDGET"',
+      't-create-widget-option-6': 'Select Thing, click "NEXT"',
+      't-create-widget-option-7': 'Select Sensor',
+      't-create-widget-option-8':
+        'Select Widget type (GRAPH, MAP, ACTION, ICON), click "NEXT"',
+      't-create-widget-option-9': 'Adjust your Widget detail',
+      't-create-widget-option-10': 'Click "CREATE"',
+      't-select-dashboard': 'Select Dashboard',
+      't-share-dashboard-option-4': 'Click Share Icon at Dashboard',
+      't-share-dashboard-option-5': 'Input Invite email, click "INVITE"',
+      't-share-dashboard-option-6':
+        'Click "COPY LINK" for share Dashboard by link',
+      'h-how-to-install-sdk': 'How to install SDK',
+      't-install-sdk-option-1': 'Go to menu bar, select menu "EXPLORE"',
+      't-install-sdk-option-2': 'Click "SDK Document"',
+      't-install-sdk-option-3': 'You will see how to install SDK',
+      'h-how-to-view-thing-data-history': 'How to view Thing Data History',
+      't-select-menu-thing': 'Select menu "THING"',
+      't-select-menu-data-history': 'Select menu "DATA HISTORY"',
+      't-select-sensor-duration-time':
+        'Select Sensor and duration time that you want to view data.',
+      't-click-view-data': 'Click "VIEW DATA"',
+      't-you-can-view-data-history-in-graph':
+        'You can view data history in type Graph, Table and Map',
+      'h-how-to-create-destination': 'How to create Destination',
+      'h-how-to-manage-message-cache':
+        'How to manage Message Cache from Destination',
+      'h-how-share-data-by-create-link': 'How to share data by Create Link',
 
-      'al-my-thing-is?': 'My Thing คืออะไร?',
-      'al-my-thing-description':
-        'หน้ารวมอุปกรณ์ IoT ของคุณ ซึ่งแต่ละอุปกรณ์จะมี Sensor เพื่อแสดงผลข้อมูลของอุปกรณ์นั้นๆ แบบ Real-time',
-      'al-how-to-register-thing': 'How to register thing',
-      'al-how-to-assign-thing-to-project': 'How to assign thing to project',
-      'al-how-to-create-sensor': 'How to create sensor',
-      'al-how-to-create-group': 'How to create group',
-      'al-thing-cards': 'Thing Cards',
-      'al-sensor-description':
-        'แสดงค่าจากอุปกรณ์ประเภทต่างๆ เช่น อุณหภูมิ, ความชื้น เป็นต้น โดย 1 อุปกรณ์จะสามารถรับ Sensor ได้หลากหลายขึ้นอยู่กับอุปกรณ์นั้นๆ',
-      'al-magellan-type-accept':
-        'ประเภทของ Thing ที่ Magellan  รองรับการใช้งาน',
-      'al-thing-type-sim': 'Thing ประเภทที่ใส่ซิมการ์ด(SIM)',
-      'al-thing-sim-description':
-        'อุปกรณ์ IoT ที่มีการเชื่อมต่อผ่าน AIS Cellular Network (มี AIS SIM)',
-      'al-thing-type-non-sim': 'Thing ประเภทที่ไม่ใส่ซิมการ์ด(Non - Sim)',
-      'al-thing-non-sim-description':
-        'อุปกรณ์ IoT ที่มีการเชื่อมต่อผ่าน Network อื่นๆ เช่น WiFi( ไม่มี AIS SIM)',
-      'al-thing-cards-such-as': 'Thing Cards แสดงข้อมูลต่างๆ ได้แก่',
-      'al-show-package-of-thing': 'แสดง Package ของ Thing นั้นๆ',
-      'al-expire-package': 'วันหมดอายุของ Package',
-      'al-show-status-thing': 'แสดงสถานะของอุปกรณ์',
-      'al-total-sensors-in-thing-cards': 'จำนวน Sensors ด้านใน Thing Cards',
+      't-select-compare-data': 'Go to menu bar, select menu "COMPARE DATA"',
+      't-click-create-new-compare': 'Click "CREATE NEW COMPARE"',
+      't-select-duration-time-compare':
+        'Select duration time that you want to compare data and click "COMPARE"',
+      't-you-can-pin-compare':
+        'You can pin your comparison by select "Pin Compare"',
+      't-set-pin-compare-then-click':
+        'Set Pin Compare Name and then click "OK"',
 
-      'al-online-config-is?': 'Online Config คืออะไร?',
-      'al-online-config-description':
-        '“Online Config” การตั้งค่าของอุปกรณ์ของคุณ โดยการกำหนดชื่อตัวแปร (Key) และค่าของข้อมูล (Value)  เพื่อสะดวกในการจัดการ เช่น  การปรับความถี่ในการส่งข้อมูลจากอุปกรณ์ขึ้นมาบน Magellan  โดย 1 อุปกรณ์สามารถมีข้อมูลการตั้งค่าได้เพียง 1 ชุดการตั้งค่าเท่านั้น',
-      'al-how-to-create-online-config': 'How to create online config',
+      't-go-to-menubar-share-data-set-destination':
+        'Go to menu bar, select menu "SHARE DATA" and select submenu "SET DESTINATION"',
+      't-click-create-destination': 'Click "CREATE FIRST DESTINATION"',
+      't-input-destination-information':
+        'Input Destination Information (Destination Name), click "ADD THING"',
+      't-select-thing-click-save': 'Select Thing, click "SAVE"',
+      't-fill-create-destination': 'Fill in the form create Destination',
 
-      'al-compare-data-is?': 'Compare Data คืออะไร?',
-      'al-compare-data-description':
-        'การเปรียบเทียบข้อมูล Sensors ของอุปกรณ์ต่างๆ เพื่อให้เห็นความแตกต่างของข้อมูลโดยแสดงผลลัพธ์ในรูปแบบของกราฟเส้น และยังสามารถบันทึกการเปรียบเทียบข้อมูลที่คุณใช้งานเป็นประจำเพื่อความสะดวกในการเปรียบเทียบในครั้งถัดไปได้',
-      'al-how-to-compare-thing-data': 'How to compare thing data',
-      'al-how-to-view-thing-data': 'How to view thing data',
+      't-destination-status-description':
+        'Setting to enable or disable data transmission to the destination server',
+      't-message-cache-description':
+        'Setting to enable or disable the storage of data that cannot be sent to the destination server.',
+      't-event-destination':
+        'The type of data from the device to be sent to the destination server include',
+      't-report-destination': 'Sensor data from the device',
+      't-desire-destination': 'Device control information',
+      't-cennection-description':
+        'Device status information such as Connected or Disconnected',
+      't-authentication-description':
+        'Authentication of the destination server include NONE, Basic Authen and oAuth2',
+      't-thing-information-description':
+        'Device information to be exported to the destination server.',
+      't-destination-mode-description':
+        'Transmission format data to destination server can be sent in 3 formats include',
+      't-all-description': 'Send sensor data as sent by the device.',
+      't-raw-description': 'Send all sensor data of the device.',
+      't-custom-description': 'Select the sensor to send data.',
+      't-custom-header-description':
+        'Additional "Headers" that want to send data to the destination server.',
+      't-click-save': 'Click "SAVE"',
+      't-raw': 'Raw',
+      't-view-destination-list': 'View Destination List',
+      't-select-number-queue=destination-box':
+        'Select Number of Queue Message in Destination Box',
+      't-page-show-detail-message-cache':
+        'Page Message Cache shows details of a message that was sent to a destination in status pending. You can click "RELOAD" to reload the sending message again.',
 
-      'al-share-data-is?': 'Share Data คืออะไร?',
-      'al-share-data-description':
-        'การส่งต่อข้อมูลออกจาก Magellan เพื่อทำการแชร์ข้อมูลให้กับผู้อื่น',
-      'al-how-to-share-data-by-create-link': 'How to share data by create link',
-      'al-how-to-share-data-to-destination': 'How to share data to destination',
-      'al-how-to-manage-message-cache': 'How to manage message cache',
-      'al-share-data-by-create-link': 'Share Data by Create Link คืออะไร ?',
-      'al-share-data-by-create-link-description':
-        'การเอาข้อมูลจาก Magellan ไปใช้งานภายนอกแบบ Pull Mode โดยสร้างเป็น API Link เพื่อดึงข้อมูล Sensor ต่างๆ ของอุปกรณ์ไปใช้',
-      'al-share-data-to-destination-is?': 'Share Data to Destination คืออะไร ?',
-      'al-share-data-to-destination-description':
-        'การส่งออกข้อมูลจาก Magellan แบบ Push Mode โดยกำหนด URL ปลายทาง เพื่อให้ Magellan ส่งข้อมูลไปยัง Server ของคุณ',
+      't-select-create-link':
+        'Go to menu bar, select menu "SHARE DATA" and select submenu "CREATE LINK"',
+      't-click-create-first-link': 'Click "CREATE FIRST LINK"',
+      't-input-share-data-detail':
+        'Input Share Data Details (Link Name, Set Expiry Date), click "SAVE"',
 
-      't-welcome-to-new-world':
-        'welcome to the new world. Let’s have new experiences',
-      't-no-result-found': 'No Result Found',
-      'al-my-package': 'My Package',
-      'al-my-package-is?': 'My Package คืออะไร?',
-      'al-my-package-description':
-        'หน้าจัดการ Package ของคุณซื้อแพคเกจผ่าน AIS Playground จากนั้นนำมาเชื่อมต่อกับ Thing เพื่อเริ่มต้นเปิดการใช้งาน',
-      't-fluid': 'FLUID',
-      't-fixed': 'FIXED',
-      't-add-magellan-to-homescreen': 'Add Magellan to home screen',
-      'v-invalid-url': 'Invalid URL , Please correct the Url',
-      't-the-image-shown-by-carousel': 'The images would be shown by carousel',
-      'b-update': 'update',
-      display: 'Display',
-      't-things-for': 'Things for',
-      'h-power-to-create-data-visualization':
-        'Power to create Data Visualization',
-      't-the-way-to-make-personalized-in-your-style':
-        'The way to make your project personalized in your style.',
-      't-add-magellan-to-homescreen-description':
-        "To install this web app on your device tap the Menu button and then 'Add to Home screen' button",
+      'h-how-to-start-magellan': 'How to start Using Magellan',
+      't-click-register-button':
+        'Click "REGISTER" button on Magellan Homepage.',
+      't-click-register-button-playground':
+        'Click "Register" button on the page Login Playground Account.',
+      't-fill-form-register-playground':
+        'Fill in the forms and click “Done” button to create your Playground Account.',
+      't-after-register-playground':
+        'After registering, waiting for verification email to be sent to your email.',
+      't-click-link-email-playground':
+        'Click the link in the AIS Playground email you received.',
+      't-now-can-login-playground':
+        'Now you can login with your AIS Playground account to use Magellan.',
+      't-alternative-login-option':
+        'Alternative options for login by Google and Facebook',
+      't-alternative-login-option.1':
+        'After logging in with your AIS Playground account, you can connect your social media accounts with Google or Facebook. Go to the page "USER INFORMATIONS".',
+      't-alternative-login-option.2':
+        'Click "CONNECT" button to connect your Social Media account.',
+      't-alternative-login-option.3':
+        'After connecting your social media account, you can log in with Google or Facebook next time.',
+
+      'h-how-to-register-device-to-magellan':
+        'How to register your device to Magellan',
+      't-select-my-things': 'Go to menu bar, Select menu "MY THINGS"',
+      't-click-register-things': 'Click "REGISTER THING" button.',
+      't-fill-form-create-things':
+        'Select Type (Sim,Non-Sim), Fill in the form (ICCID,IMEI,IMSI,Thing Name) and Click "SAVE" button to register Thing to account',
+      't-alternative-register-thing': 'Alternative options to register Thing',
+      't-alternative-register-thing.1':
+        'Register Thing by upload template file CSV ',
+      't-alternative-register-thing.1.1': 'click "DOWNLOAD"',
+      't-alternative-register-thing.1.2':
+        'Input data in file template that receive from file download',
+      't-alternative-register-thing.1.3': 'Click "UPLOAD.CSV" button',
+      't-alternative-register-thing.1.4': 'Select file template, click "OPEN"',
+
+      't-alternative-register-thing.2': 'Register Thing by scan QR code',
+      't-alternative-register-thing.2.1':
+        'Click "BROWSER QR CODE" or Click "SCAN QR CODE"',
+      't-alternative-register-thing.2.2':
+        'Click "BROWSER QR CODE", select QR Code image',
+      't-alternative-register-thing.2.3':
+        'Click "SCAN QR CODE", scanning from camera',
+
+      'h-how-to-create-project': 'How to create Project',
+      't-click-create-new-project': 'Click "CREATE NEW PROJECT" button',
+      't-input-project-info':
+        'Input Project Information (Project Name). You can select or customize the color for your project (Project Color). Click the "CREATE" button.',
+
+      't-select-myproject': 'Select "MY PROJECTS"',
+      't-click-share-project': 'On Project cards, Click "Share Project"',
+      't-input-invite-email': 'Input Invite email, Click "INVITE" button',
+      't-view-project-member-list': 'View Project Member list',
+
+      't-click-add-project-in-thing-cards':
+        'Click "ADD TO PROJECT" in Thing Cards',
+      't-select-project-and-save': 'Select Project and click "SAVE" button',
+      't-your-thing-already-in-project': 'Your Thing already in your Project ',
+
+      't-select-thing': 'Select menu "THING"',
+      't-select-thing-in-project': 'Select Thing in your project',
+      't-click-add-sensor': 'Click "ADD SENSOR"',
+      't-inputsensor-information':
+        'Input Sensor Information (Sensor Name, Value, Sensor Type "Control" or "Report", Data type input "String" or "Number") and click "ADD" button.',
+
+      't-select-group-thing': 'Select menu "GROUP THING"',
+      't-click-create-group-thing': 'Click "CREATE GROUP THING"',
+      't-input-group-thing-information':
+        'Input Group Thing Information (Group Thing Name, Group Thing Description) and click "ADD THING"',
+      't-select-thing-and-save': 'Select Things and click "SAVE"',
+      't-after-success-select-thing':
+        'After successfully selecting the thing, click "SAVE"',
+
+      't-select-online-config': 'Go to menu bar, Select menu "ONLINE CONFIG"',
+      't-click-create-new-config': 'Click "CREATE NEW CONFIG"',
+      't-input-config': 'Input Config Name. Click "ADD THING"',
+      't-click-add-field-then-save':
+        'Click "ADD FIELD", input Key and Value then click "SAVE"',
+
+      'h-share-project': 'Share Project',
+      'h-how-to-create-online-config': 'How to create config (Online Config)',
+      'h-delete-all-link': 'delete all link',
+      'h-create-link': 'Created Link',
+
+      'h-introduction': 'Introduction',
+      'h-thing-message-format': 'THING MESSAGE FORMAT',
+      'h-coaps-status-codes': 'CoAP STATUS CODES',
+      'h-config': 'CONFIG',
+      'h-delta': 'DELTA',
+      'h-http-status-codes': 'HTTP STATUS CODES',
+      'h-mqtt-connect': 'MQTT CONNECT',
+      'h-report-thing-real-time': 'Report Thing Real-Time',
+      'h-report-thing-timestamp': 'Report Thing with Timestamp',
+      'h-heartbeat': 'Heartbeat',
+      'h-server-config': 'Server Config',
+      'h-client-config': 'Client Config',
+      'h-server-date-time': "Server's Date Time",
+      'h-hdc1080-library': 'HDC1080 Library',
     },
   ];
   name = 'Angular ' + VERSION.major;
